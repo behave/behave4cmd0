@@ -1,0 +1,17 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS: Normal usage/installation (minimal)
+# ============================================================================
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SEE ALSO:
+#  * https://pip.pypa.io/en/stable/
+# ============================================================================
+
+enum34; python_version < '3.4'
+six >= 1.15.0
+
+# -- ASSERTION MATCHERS:
+assertpy >= 1.1
+PyHamcrest >= 2.0.2; python_version >= '3.0'
+PyHamcrest <  2.0;   python_version <  '3.0'

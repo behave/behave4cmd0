@@ -1,0 +1,15 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS: All requirements
+# ============================================================================
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SEE ALSO:
+#  * https://pip.pypa.io/en/stable/
+# ============================================================================
+
+-r basic.txt
+-r develop.txt
+-r testing.txt
+
+# ALREADY: -r docs.txt
