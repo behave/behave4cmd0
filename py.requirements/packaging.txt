@@ -1,0 +1,12 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS FOR: behave4cmd0 -- For packaging
+# ============================================================================
+# SEE: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+
+# -- PACKAGING SUPPORT:
+build
+setuptools
+wheel
+
+# MAYBE:
+setuptools-scm

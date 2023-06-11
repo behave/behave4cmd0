@@ -1,4 +1,4 @@
-behave4cmd0: Behave for Commands (version 0)
+behave4cmd0: Behave for Commands (variant 0)
 ==============================================================================
 
 :Category: BDD, testing
@@ -19,7 +19,7 @@ Otherwise:
 
 SEE ALSO:
 
-* Current state: `behave4cmd0 <https://github.com/behave/behave/tree/main/behave4cmd0>`_ (embedded in `behave`_) 
+* Current state: `behave4cmd0 <https://github.com/behave/behave/tree/main/behave4cmd0>`_ (as part of `behave`_)
 * Example: `features/step.use_step_library.feature`_
 * https://github.com/behave/behave
 

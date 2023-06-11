@@ -1,0 +1,22 @@
+include .coveragerc
+include .editorconfig
+include .pylintrc
+include *.cfg
+include *.ini
+include *.yaml
+recursive-include py.requirements  *.txt *.rst
+recursive-include tasks            *.txt
+
+# DISABLED: exclude .gitignore
+prune .tox
+prune .venv*
+
+# PREPARED: include bin/behave*
+# PREPARED: include bin/invoke*
+# PREPARED: recursive-include bin           *.py *.cmd *.sh
+# ALREADY: recursive-include behave4cmd0   *.py
+# PREPARED: recursive-include docs          *.rst *.txt *.css *.py *.html *.rst-* *.png Makefile
+# PREPARED: recursive-include docs/_themes  *.html *.conf *.css *.css_t LICENSE*
+# PREPARED: recursive-include features      *.feature *.py *.txt
+# PREPARED: recursive-include tasks         *.py *.txt *.rst
+# PREPARED: recursive-include tests         *.py *.txt

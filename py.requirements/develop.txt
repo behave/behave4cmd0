@@ -5,6 +5,9 @@
 # -- BUILD-SYSTEM: invoke
 -r invoke.txt
 
+# -- PACKAGING SUPPORT:
+-r packaging.txt
+
 # -- CONFIGURATION MANAGEMENT (helpers):
 # FORMER: bumpversion >= 0.4.0
 bump2version >= 0.5.6
