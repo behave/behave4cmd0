@@ -39,7 +39,7 @@ dependencies = [
     "PyHamcrest >= 2.0.2; python_version >= '3.0'",
     "PyHamcrest <  2.0;   python_version <  '3.0'",
 ]
-# MAYBE: version = "1.2.7.dev5"
+# MAYBE: version = "1.2.7.dev6"
 dynamic = ["version"]
 
 
