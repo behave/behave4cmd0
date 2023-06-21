@@ -3,8 +3,9 @@
 # =============================================================================
 # SEE: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
 # SEE: https://pypi.org/classifiers/
+# MAYBE: requires = ["setuptools", "setuptools-scm"]
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 
@@ -38,9 +39,21 @@ dependencies = [
     "PyHamcrest >= 2.0.2; python_version >= '3.0'",
     "PyHamcrest <  2.0;   python_version <  '3.0'",
 ]
+# MAYBE: version = "1.2.7.dev4"
 dynamic = ["version"]
 
+
+[project.urls]
+Homepage = "https://github.com/behave/behave4cmd0"
+"Source Code" = "https://github.com/behave/behave4cmd0"
+"Issue Tracker" = "https://github.com/behave/behave4cmd0/issues/"
+
+
 [project.optional-dependencies]
+develop = [
+    "build >= 0.5.1",
+    "twine",
+]
 docs = [
     "sphinx >=1.6",
     "sphinx_bootstrap_theme >= 0.6.0"
@@ -51,6 +64,10 @@ testing = [
     "pytest-html >= 1.19.0,<2.0; python_version <  '3.0'",
     "pytest-html >= 2.0;         python_version >= '3.0'",
 ]
+
+
+[tool.distutils.bdist_wheel]
+universal = true
 
 
 # -----------------------------------------------------------------------------
