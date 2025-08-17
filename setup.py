@@ -69,7 +69,7 @@ setup(
     # SUPPORT: python2.7 (python2 only)
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
     install_requires=[
-        # -- PREPARED-FOR-FUTURE: "behave >= 1.2.6",
+        # -- PREPARED-FOR-FUTURE: "behave >= 1.3.1",
         "enum34; python_version < '3.4'",
         "six >= 1.15.0",
         # -- ASSERTION MATCHERS:
