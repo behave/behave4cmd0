@@ -41,7 +41,7 @@ THIS_PACKAGE_DIR = os.path.join(HERE, "behave4cmd0")
 # ----------------------------------------------------------------------------
 setup(
     name="behave4cmd0",
-    version= "1.2.7.dev6",
+    version= "1.3.1",
     url="https://github.com/behave/behave4cmd0",
     author="Jens Engel",
     author_email="jenisys@noreply.github.com",
