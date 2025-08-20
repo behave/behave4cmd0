@@ -19,9 +19,9 @@ Otherwise:
 
 SEE ALSO:
 
+* https://github.com/behave/behave4cmd0
 * Current state: `behave4cmd0 <https://github.com/behave/behave/tree/main/behave4cmd0>`_ (as part of `behave`_)
 * Example: `features/step.use_step_library.feature`_
-* https://github.com/behave/behave
 
 .. _behave: https://github.com/behave/behave
 .. _behave4cmd: https://github.com/behave/behave4cmd

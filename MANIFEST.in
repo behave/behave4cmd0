@@ -1,20 +1,20 @@
+# -- DISABLED: include .gitignore
 include .coveragerc
 include .editorconfig
+include .envrc*
 include .pylintrc
 include *.cfg
 include *.ini
+include *.rst
 include *.yaml
 recursive-include py.requirements  *.txt *.rst
 recursive-include tasks            *.txt
 
-# DISABLED: exclude .gitignore
 prune .tox
 prune .venv*
+prune venv*
 
-# PREPARED: include bin/behave*
-# PREPARED: include bin/invoke*
 # PREPARED: recursive-include bin           *.py *.cmd *.sh
-# ALREADY: recursive-include behave4cmd0   *.py
 # PREPARED: recursive-include docs          *.rst *.txt *.css *.py *.html *.rst-* *.png Makefile
 # PREPARED: recursive-include docs/_themes  *.html *.conf *.css *.css_t LICENSE*
 # PREPARED: recursive-include features      *.feature *.py *.txt

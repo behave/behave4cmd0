@@ -4,8 +4,9 @@
 # SEE: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
 
 # -- PACKAGING SUPPORT:
-build
+build >= 0.5.1
 setuptools
+twine >= 1.13.0
 wheel
 
 # MAYBE:

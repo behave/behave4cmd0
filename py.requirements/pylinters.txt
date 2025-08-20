@@ -5,4 +5,6 @@
 
 # -- STATIC CODE ANALYSIS:
 pylint
-ruff >= 0.0.270; python_version >= '3.7'
+
+# -- PREPARED:
+# ruff >= 0.12.9
